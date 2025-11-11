@@ -1,0 +1,1 @@
+ java -Xms512m -Xmx20480m -Dspring.config=/home/rgdpub/properties/default_db.xml -jar /home/rgdpub/pipelines/SolrDocsToPostgressPipeline/solr-docs-to-postgress-pipeline-1.0.0.jar -i /rgd/pubmed_output > /home/rgddata/pipelines/SolrDocsToPostgressPipeline/test.log
